@@ -10,7 +10,7 @@ import javax.sql.DataSource;
 
 public class DBManager {
 
-	public Connection getConnection() {
+	public static Connection getConnection() {
 		Connection conn = null;
 		try{
 			Context init = new InitialContext();
